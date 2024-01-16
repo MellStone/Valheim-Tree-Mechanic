@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2547453338142628107}
+  - component: {fileID: 8710927134598262909}
   m_Layer: 3
   m_Name: StumpTree
   m_TagString: Untagged
@@ -32,6 +33,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8710927134598262909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4768052434142211438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a1b231239d6de344992563ab72197d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeType: 3
+  treeLog: {fileID: 7499140689781437413, guid: 55a3e3510da242f4e9872251202efba9, type: 3}
+  treeLogHalf: {fileID: 6164055738707875098, guid: bb6695ae7fa14bb4f92393ffd045d4f3, type: 3}
+  treeStump: {fileID: 4768052434142211438}
 --- !u!1001 &9096498359342516593
 PrefabInstance:
   m_ObjectHideFlags: 0
